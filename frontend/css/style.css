@@ -1,0 +1,101 @@
+/* Configuração Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f4ef; /* Tom creme claro, mais aconchegante */
+    color: #2d2d2d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Barra de Navegação */
+nav {
+    background-color: rgb(153, 89, 47);
+    margin-top: 0;
+    padding: 20px 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgb(87, 46, 19);
+    transform: translateY(-2px); /* Pequeno efeito de elevação */
+}
+
+/* Estrutura Principal e Rodapé */
+main, footer {
+    text-align: center;
+    color: #2d2d2d;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgb(87, 46, 19);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(153, 89, 47);
+    margin-bottom: 15px;
+}
+
+.titulo_menu {
+    color: rgb(87, 46, 19); 
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.4rem; 
+    font-weight: bold;
+}
+
+/* Tabelas Modernas */
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    color: #333;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden; /* Garante que os cantos arredondados apareçam */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 14px 20px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: rgb(87, 46, 19);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background-color: #fcf9f5; /* Efeito suave ao passar o mouse na linha */
+    transition: background-color 0.2s ease;
+}
